@@ -1,6 +1,7 @@
 # Flask
 Flask the python web framework
-(tutorial point link)[https://www.tutorialspoint.com/flask/flask_templates.htm]
+[tutorial point link](https://www.tutorialspoint.com/flask/flask_templates.htm)
+[another link](https://www.digitalocean.com/community/tutorials/how-to-make-a-web-application-using-flask-in-python-3)
 ```
 >pip install virtualenv
 >virtualenv venv
