@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>{% block title %}base{% endblock %}</title>
+</head>
+<body>
+	<a id="login" href="/login">login</a>
+	<a id="signUp" href="/sign-up">Sign Up</a>
+	<a id="logout" href="/logout">Logout</a>
+	<a id="home" href="/">Home</a>
+	<hr>
+	{% with messages = get_flashed_messages(with_categories=true) %}
+		{% if messages %}
+			{% for message in messages %}
+				<div role='alert'>
+					{{ message }}
+					<button type="button" data-dismiss="alert">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+			{% endfor %}
+		{% endif %}
+	{% endwith %}
+	<div>
+		{% block content %}
+
+		{% endblock %}
+	</div>
+</body>
+</html>
