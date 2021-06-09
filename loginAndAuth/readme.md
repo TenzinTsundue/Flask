@@ -1,7 +1,9 @@
-[link to the Video](https://www.youtube.com/watch?v=dam0GPOAvVI) <br>
+Tech with Tim: [link to the Video](https://www.youtube.com/watch?v=dam0GPOAvVI) <br>
 [Link to his code](https://github.com/techwithtim/Flask-Web-App-Tutorial) <br>
 
 ### Creatinga basic login system and Authication system using flask
+
+I have created virtual enviroment and install below package for the code
 
 Module/ Package needed
 - flask
